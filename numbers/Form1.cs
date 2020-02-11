@@ -24,6 +24,12 @@ namespace numbers
             richTextBox1.AppendText(d1.ToString("0.0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.0E0") + "\n");
             richTextBox1.AppendText(d1.ToString("0.00E00") + "\n");
+
+            double pi = 3.141592653589793;
+            double c = 299792458;
+            richTextBox1.AppendText(pi.ToString());
+            richTextBox1.AppendText(3.ToString());
+
         }
 
         private void RichTextBox1_TextChanged(object sender, EventArgs e)
